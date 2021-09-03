@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Example Dialogflow Flutter',
+      title: 'YoubiMiku',
       theme: new ThemeData(
         primarySwatch: Colors.cyan,
       ),
@@ -80,7 +80,7 @@ class _HomePageDialogflow extends State<HomePageDialogflow> {
     _textController.clear();
     ChatMessage message = new ChatMessage(
       text: text,
-      name: "Promise",
+      name: "You",
       type: true,
     );
     setState(() {
@@ -94,7 +94,7 @@ class _HomePageDialogflow extends State<HomePageDialogflow> {
     return new Scaffold(
       appBar: new AppBar(
         centerTitle: true,
-        title: new Text("Flutter and Dialogflow"),
+        title: new Text("YoubiMiku"),
       ),
       body: new Column(children: <Widget>[
         new Flexible(
