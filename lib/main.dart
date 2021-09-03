@@ -93,7 +93,6 @@ class _HomePageDialogflow extends State<HomePageDialogflow> {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        centerTitle: true,
         title: new Text("YoubiMiku"),
       ),
       body: new Column(children: <Widget>[
@@ -125,7 +124,9 @@ class ChatMessage extends StatelessWidget {
     return <Widget>[
       new Container(
         margin: const EdgeInsets.only(right: 16.0),
-        child: new CircleAvatar(child: new Text('B')),
+        child: new CircleAvatar(
+          backgroundImage: AssetImage('images/miku.jpg'),
+        ),
       ),
       new Expanded(
         child: new Column(
