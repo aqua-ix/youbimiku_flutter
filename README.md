@@ -1,16 +1,14 @@
 # youbimiku_flutter
 
-A new Flutter project.
+Flutter version of [Youbimiku](https://github.com/aqua-ix/YoubiMiku/tree/master).
 
-## Getting Started
+<img src="img/chat.png" width="300px" />
 
-This project is a starting point for a Flutter application.
+## Setup
 
-A few resources to get you started if this is your first Flutter project:
+Place the Dialogflow secret in `assets/dialogflow_secret.json`.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Credit
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This application features an adaptation of Hatsune Miku,  
+© Crypton Future Media, Inc. 2007, licensed under a [CC BY-NC](http://creativecommons.org/licenses/by-nc/3.0/).
